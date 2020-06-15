@@ -1,0 +1,50 @@
+/*Comment XD*/
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#lol p {
+    color: cornflowerblue;
+    background-color: black;
+    font-size: 130%;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.rel {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: inline-table;
+    border-radius: 20px;
+}
+
+.gun {
+    font-family: "Times New Roman";
+    vertical-align: middle;
+    display: table-cell;
+    color: cornflowerblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gg {
+    border-style: solid;
+    max-width: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.ol {
+    list-style-type: disc;
+}
