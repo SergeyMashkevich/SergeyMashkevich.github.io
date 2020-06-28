@@ -1,0 +1,79 @@
+
+body {
+    background-image: url("C:/Users/sergi/Desktop/Projects in github/SergeyMashkevich.github.io/20191228_101650_resized.jpg");
+    background-color: black;
+    background-size: cover;
+    font-family: "Times New Roman";
+    background-repeat: no-repeat;
+}
+
+.TitleBackground {
+    background-color: black;
+    width: 60%; height: 200px;
+    border-radius: 20px;
+    margin: auto;
+    display: table;
+    animation-name: example;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    50% {background-color: black;}
+    50% {background-color: snow;}
+}
+
+/*Title text*/
+.TitleText {
+    display: table-cell;
+    color: cornflowerblue;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12.5px;
+    margin-right: 100px;
+    
+}
+
+/*Text1*/
+.Box1 {
+    background-color: black;
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+    position: center;
+    animation-name: example;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+.TextBox1 {
+    color: cornflowerblue;
+    font-size: 20px;
+    text-align: center;
+    word-wrap: normal;
+    padding: 25px;
+    font-weight: 900;
+}
+
+/*Text2*/
+.TextBox2 {
+    color: snow;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.Box2 {
+    background-color: black;
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+
+
+
