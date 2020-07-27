@@ -57,23 +57,63 @@ body {
     font-weight: 900;
 }
 
-/*Text2*/
-.TextBox2 {
-    color: snow;
-    font-size: 20px;
-    text-align: center;
-    padding: 25px;
-}
+/*Js Commands*/
 
-.Box2 {
-    background-color: black;
+.wrapper {
     width: 800px;
-    height: auto;
-    border-radius: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    color: #fff;
+    text-align: center;
 }
 
+h1, h2, h3 {
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 2.6em;
+}
 
+#seconds, #tens, .dots {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
 
+button {
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    border: solid 1px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 150px;
+    margin: 10px;
+    outline: none;
+    margin-top: 20px;
+}
 
+    button:hover {
+        transition: all 0.5s;
+        border: solid 1px #fff;
+        color: cornflowerblue;
+    }
 
+.StopW {
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
 
+.StopWatch {
+    color: cornflowerblue;
+    font-size: 30px;
+    text-align: center;
+    word-wrap: normal;
+    padding: 25px;
+    font-weight: 900;
+}
