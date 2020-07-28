@@ -9,13 +9,14 @@ body {
 
 .TitleBackground {
     background-color: black;
-    width: 60%; height: 200px;
+    width: auto; height: 200px;
     border-radius: 20px;
     margin: auto;
     display: table;
     animation-name: example;
     animation-duration: 40s;
     animation-iteration-count: infinite;
+    padding-right: 30px; padding-left: 30px;
 }
 
 @keyframes example {
@@ -37,7 +38,7 @@ body {
 /*Text1*/
 .Box1 {
     background-color: black;
-    width: 800px;
+    width: auto; max-width: 800px;
     height: auto;
     border-radius: 20px;
     margin: auto;
@@ -87,7 +88,7 @@ button {
     cursor: pointer;
     font-size: 1.2em;
     padding: 18px 10px;
-    width: 150px;
+    width: auto; min-width: 100px;
     margin: 10px;
     outline: none;
     margin-top: 20px;
